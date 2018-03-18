@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference android:title="Password" >
+        <intent android:action="go.to.Blurpass"
+             />
+    </Preference>
+
+    <Preference android:title="Pattern" >
+           <intent
+                     android:action="go.to.setPattern"
+             />
+    </Preference>
+
+    <Preference android:title="Face auth" >
+        <intent android:action="android.intent.action.VIEW"
+            android:data="http://www.example.com" />
+    </Preference>
+
+</PreferenceScreen>

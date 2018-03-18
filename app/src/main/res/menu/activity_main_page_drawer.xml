@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_page"
+            android:icon="@drawable/home_slide"
+            android:title="Home" />
+        <item
+            android:id="@+id/cryption_page"
+            android:icon="@drawable/crypt_icon"
+            android:title="Encryption" />
+        <item
+            android:id="@+id/decryption_page"
+            android:icon="@drawable/decrypt_icon"
+            android:title="Decryption" />
+        <item
+            android:id="@+id/setting_page"
+            android:icon="@drawable/stting_icon"
+            android:title="Setting" />
+
+        <item
+            android:id="@+id/historique"
+            android:icon="@drawable/aide_icon"
+            android:title="Historique" />
+    </group>
+
+
+
+</menu>

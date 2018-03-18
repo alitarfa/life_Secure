@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_display_key_word">
+        <item>Blue Theme</item>
+        <item>Green Theme</item>
+        <item>red Theme</item>
+    </string-array>
+
+
+    <string-array name="theme_values">
+        <item>one</item>
+        <item>two</item>
+    </string-array>
+
+
+    <string-array name="lang_use_show">
+        <item>Eng</item>
+        <item>Fr</item>
+        <item>Arb</item>
+    </string-array>
+
+
+    <string-array name="lang_use_values">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+
+
+
+    <array name="username_colors">
+        <item>@color/username0</item>
+        <item>@color/username1</item>
+        <item>@color/username2</item>
+        <item>@color/username3</item>
+        <item>@color/username4</item>
+        <item>@color/username5</item>
+        <item>@color/username6</item>
+        <item>@color/username7</item>
+        <item>@color/username8</item>
+        <item>@color/username9</item>
+        <item>@color/username10</item>
+        <item>@color/username11</item>
+    </array>
+
+</resources>

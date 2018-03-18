@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/app_bar_image"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:scaleType="fitXY"
+        app:layout_collapseMode="parallax"
+        app:srcCompat="@drawable/maken" />
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/con"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_bar_image"
+        tools:context="com.example.ali.project_fin.Fragments.cryption_page">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <Button
+            android:id="@+id/sss"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_add_box_black_24dp"
+            android:onClick="get_file"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/crypt"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/sign_in_btn_shape"
+            android:padding="3dp"
+            android:text="Encryption"
+            android:textColor="@color/c_five"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sss"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <ListView
+        android:id="@+id/file_selected"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/con"
+        />
+
+
+</RelativeLayout>
+
+
+

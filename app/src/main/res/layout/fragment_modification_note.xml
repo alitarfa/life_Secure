@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cardview_light_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1.05"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="71dp"
+                    android:hint="Title"
+                    android:inputType="textPersonName"
+                    tools:layout_editor_absoluteX="60dp"
+                    tools:layout_editor_absoluteY="82dp" />
+
+                <EditText
+                    android:id="@+id/desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="146dp"
+                    android:ems="10"
+                    android:hint="Description"
+                    android:inputType="textMultiLine" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/color_yellow"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/third_color"
+            android:onClick="getColorYellow"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <Button
+            android:id="@+id/color_red"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:onClick="getColorRed"
+            android:background="@drawable/forth_color"
+            tools:layout_editor_absoluteX="134dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <Button
+            android:id="@+id/color_creen"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:onClick="getColorGreen"
+            android:background="@drawable/circle_btn_color"
+            tools:layout_editor_absoluteY="555dp" />
+
+        <Button
+            android:id="@+id/color_blue"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:onClick="getColorBleu"
+            android:background="@drawable/second_color"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <Button
+            android:id="@+id/color_simple"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:onClick="getColorWhite"
+            android:background="@drawable/fifth_color"
+            tools:layout_editor_absoluteX="233dp"
+            tools:layout_editor_absoluteY="344dp" />
+    </LinearLayout>
+
+</LinearLayout>

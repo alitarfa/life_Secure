@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/aaaa"
+    android:fitsSystemWindows="true"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="?attr/colorBackgroundFloating">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_note"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/holo_orange_light"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Master Note"
+                android:textSize="20dp"
+
+                />
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        android:id="@+id/one"
+        layout="@layout/content_note_m" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        tools:context="com.example.ali.project_fin.sec_sms.MainSms">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="12dp"
+            android:background="@drawable/ic_pen"
+            android:elevation="4dp"
+            android:gravity="bottom|left"
+            android:onClick="openSendSms"
+            android:padding="5dp" />
+
+
+    </FrameLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

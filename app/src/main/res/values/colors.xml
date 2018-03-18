@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="accent">#03A9F4</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#c8e8ff</color>
+
+
+    <color name="colorOne">#2196f3</color>
+    <color name="colorTwo">#673ab7</color>
+    <color name="colorThree">#64b5f6</color>
+
+    <color name="username0">#e21400</color>
+    <color name="username1">#91580f</color>
+    <color name="username2">#f8a700</color>
+    <color name="username3">#f78b00</color>
+    <color name="username4">#58dc00</color>
+    <color name="username5">#287b00</color>
+    <color name="username6">#a8f07a</color>
+    <color name="username7">#4ae8c4</color>
+    <color name="username8">#3b88eb</color>
+    <color name="username9">#3824aa</color>
+    <color name="username10">#a700ff</color>
+    <color name="username11">#d300e7</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <color name="c_one">#00e809</color>
+    <color name="c_two">#3f51b5</color>
+    <color name="c_three">#ffeb3b</color>
+    <color name="c_four">#f44336</color>
+    <color name="c_five">#ffffff</color>
+
+
+
+
+</resources>
